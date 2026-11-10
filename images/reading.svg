@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Человек читает книгу</title><desc id="desc">Уютная иллюстрация с креслом, растением и открытой книгой.</desc>
+  <rect width="600" height="480" rx="36" fill="#e9e7d9"/><circle cx="465" cy="100" r="70" fill="#f5c56b" opacity=".8"/>
+  <path d="M110 430h390" stroke="#1d2923" stroke-width="10" stroke-linecap="round"/><path d="M155 430V175h215v255" fill="#ef775d"/><path d="M150 190h225v205H150z" fill="#c65e4f"/>
+  <path d="M200 245c30-45 82-55 127-11l-22 90H196z" fill="#7c9cb4"/><circle cx="265" cy="185" r="43" fill="#eaa47e"/><path d="M225 178c2-48 80-55 90 7-17-15-38-18-59-6-13 7-21 11-31-1z" fill="#263c35"/>
+  <path d="M221 260l-33 91 63 2 28-68 54 63 38-27-70-80z" fill="#7c9cb4"/><path d="M223 348l-45 62h75l28-64zM338 345l40 65h58l-57-94z" fill="#263c35"/>
+  <path d="M257 254l-40 48 58 38 36-50 62 36 17-29-78-57z" fill="#fffaf0" stroke="#1d2923" stroke-width="5"/>
+  <path d="M304 289v50M265 280l34 20M315 303l42 9" stroke="#ef775d" stroke-width="4"/>
+  <path d="M445 340c22-56 20-92-8-119M435 242c-30-16-48-14-63 0M439 276c31-15 48-12 63 5M439 305c-21-10-35-7-45 7" fill="none" stroke="#4f8060" stroke-width="12" stroke-linecap="round"/>
+  <path d="M380 423h120l-19-42H399z" fill="#c99a52"/>
+</svg>

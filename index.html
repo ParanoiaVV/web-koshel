@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Интерактивная книжная полка: демонстрация HTML, JavaScript, fetch и Google Таблицы.">
+  <title>Книжная полка — практическая работа</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container" aria-label="Основная навигация">
+      <a class="brand" href="#top">BOOK<span>LAB</span></a>
+      <a class="nav-link" href="#library">Моя библиотека ↓</a>
+    </nav>
+    <div class="hero-content container" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Практическая работа · HTML + JavaScript + AI</p>
+        <h1>Читай.<br><em>Исследуй.</em><br>Создавай.</h1>
+        <p class="lead">Небольшая интерактивная книжная полка, где данные из Google Таблицы превращаются в живую веб-страницу.</p>
+        <button class="primary-button" id="actionButton" type="button">Открыть полку <span>↗</span></button>
+        <p class="button-status" id="buttonStatus" aria-live="polite">Готовы к чтению?</p>
+      </div>
+      <div class="hero-art">
+        <img src="images/reading.svg" alt="Иллюстрация человека, читающего книгу в уютном кресле">
+        <div class="floating-note">4 книги<br><strong>для вдохновения</strong></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="library-section container" id="library">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Коллекция 01</p>
+          <h2>Книги, которые<br><em>остаются с нами</em></h2>
+        </div>
+        <p class="section-intro">Список загружается через <code>fetch()</code> из опубликованной Google Таблицы.</p>
+      </div>
+      <div id="loading" class="loading" role="status">Загружаем библиотеку…</div>
+      <div id="books" class="books-grid" aria-live="polite"></div>
+      <div id="error" class="error-box" role="alert" hidden></div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>BOOKLAB / 2026</span>
+    <span>Создано с любопытством и помощью ИИ</span>
+  </footer>
+</body>
+</html>

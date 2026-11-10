@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+:root { --ink: #1d2923; --cream: #f7f3eb; --sage: #b7cdbb; --coral: #ef775d; --muted: #69746d; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--cream); font-family: 'DM Sans', sans-serif; }
+.container { width: min(1120px, calc(100% - 48px)); margin: 0 auto; }
+.hero { min-height: 650px; background: var(--sage); overflow: hidden; }
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 30px 0; }
+.brand { color: var(--ink); text-decoration: none; font-weight: 700; letter-spacing: .08em; font-size: 1.05rem; }
+.brand span { color: var(--coral); }
+.nav-link { color: var(--ink); text-decoration: none; font-size: .9rem; border-bottom: 1px solid var(--ink); padding-bottom: 4px; }
+.hero-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; padding: 60px 0 90px; }
+.eyebrow { color: var(--coral); text-transform: uppercase; letter-spacing: .16em; font-size: .72rem; font-weight: 700; margin: 0 0 18px; }
+h1, h2 { font-weight: 500; letter-spacing: -.055em; line-height: .98; margin: 0; }
+h1 { font-size: clamp(4rem, 8vw, 7.8rem); }
+h2 { font-size: clamp(2.6rem, 5vw, 4.7rem); }
+em { font-family: 'Playfair Display', serif; font-weight: 600; }
+.lead { max-width: 390px; color: #405048; line-height: 1.65; margin: 30px 0 28px; }
+.primary-button { border: 0; border-radius: 999px; background: var(--coral); color: white; padding: 15px 22px 15px 26px; font: inherit; font-weight: 700; cursor: pointer; box-shadow: 0 8px 20px #b85d4d35; transition: transform .2s, box-shadow .2s; }
+.primary-button:hover { transform: translateY(-2px); box-shadow: 0 12px 24px #b85d4d45; }
+.primary-button span { display: inline-block; margin-left: 18px; font-size: 1.2rem; }
+.button-status { display: inline-block; margin: 0 0 0 14px; color: #53645b; font-size: .82rem; }
+.hero-art { position: relative; min-height: 430px; display: grid; place-items: center; }
+.hero-art img { width: min(100%, 510px); filter: drop-shadow(12px 18px 0 #78997f45); }
+.floating-note { position: absolute; right: 0; bottom: 30px; background: var(--cream); padding: 14px 18px; line-height: 1.35; font-size: .78rem; transform: rotate(4deg); box-shadow: 8px 8px 0 #78997f45; }
+.floating-note strong { font-size: .95rem; }
+.library-section { padding: 115px 0 100px; }
+.section-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 50px; }
+.section-intro { max-width: 280px; line-height: 1.55; color: var(--muted); font-size: .9rem; }
+code { background: #e6e0d4; padding: 3px 6px; border-radius: 4px; color: #9e503f; }
+.books-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.book-card { min-height: 250px; display: flex; flex-direction: column; justify-content: space-between; padding: 24px; background: white; border-top: 5px solid var(--coral); box-shadow: 0 8px 25px #27372e0b; transition: transform .2s; }
+.book-card:nth-child(2) { border-color: #7c9cb4; }.book-card:nth-child(3) { border-color: #c99a52; }.book-card:nth-child(4) { border-color: #8b7ba8; }
+.book-card:hover { transform: translateY(-5px); }
+.book-number { color: var(--coral); font-size: .75rem; font-weight: 700; }
+.book-card h3 { font-family: 'Playfair Display', serif; font-size: 1.45rem; line-height: 1.1; margin: 18px 0 8px; }
+.book-card p { color: var(--muted); margin: 0; font-size: .88rem; }.book-year { color: var(--ink) !important; font-weight: 700; margin-top: 15px !important; }
+.loading { color: var(--muted); padding: 30px 0; }.error-box { padding: 18px; background: #ffe3dd; color: #8d3528; border-left: 4px solid var(--coral); }
+.footer { display: flex; justify-content: space-between; border-top: 1px solid #ccd3ca; padding: 25px 0 35px; color: var(--muted); font-size: .75rem; letter-spacing: .05em; }
+@media (max-width: 760px) { .hero-content { grid-template-columns: 1fr; padding-top: 30px; }.hero-art { min-height: 280px; }.section-heading { display: block; }.section-intro { margin-top: 25px; }.books-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 470px) { .container { width: min(100% - 32px, 1120px); }.books-grid { grid-template-columns: 1fr; }.button-status { display: block; margin: 12px 0 0; } }
