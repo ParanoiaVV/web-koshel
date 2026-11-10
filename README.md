@@ -5,7 +5,7 @@
 ## Ссылки
 
 - Сайт GitHub Pages: будет добавлена после включения Pages.
-- Репозиторий: https://github.com/ParanoiaVV/booklab-practice
+- Репозиторий: https://github.com/ParanoiaVV/web-koshel
 - Google Таблица (CSV): будет добавлена после публикации таблицы.
 - Pull Request: будет добавлен после создания PR.
 
