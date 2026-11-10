@@ -6,7 +6,8 @@
 
 - Сайт GitHub Pages: будет добавлена после включения Pages.
 - Репозиторий: https://github.com/ParanoiaVV/web-koshel
-- Google Таблица (CSV): будет добавлена после публикации таблицы.
+- Google Таблица: https://docs.google.com/spreadsheets/d/1tRRVNAg6d65EkWIDX8z7FZwIBg8UbSPCc_buqjfGqw8/edit
+- Google Таблица (CSV): ссылка появится после публикации в интернете.
 - Pull Request: будет добавлен после создания PR.
 
 ## Запуск
